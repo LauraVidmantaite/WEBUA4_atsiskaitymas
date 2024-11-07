@@ -1,0 +1,54 @@
+:root {
+
+  /* COLOR */
+
+  --color-primary: rgb(0, 123, 255);
+  --color-primary-dark: rgb(0 104 218);
+  --color-secondary: rgb(248, 249, 250);
+  --color-black: rgb(33, 37, 41);
+  --color-gray: rgb(112, 118, 126);
+  --color-white: rgb(255, 255, 255);
+
+  /* SPACING */
+
+  --spc-1: 0.25rem;
+  --spc-2: 0.5rem;
+  --spc-3: 0.75rem;
+  --spc-4: 1rem;
+  --spc-5: 1.25rem;
+  --spc-6: 1.5rem;
+  --spc-7: 1.75rem;
+  --spc-8: 2rem;
+  --spc-9: 2.25rem;
+  --spc-10: 2.5rem;
+
+  --spc-md: 4rem;
+  --spc-lg: 5rem;
+  --spc-xl: 7.5rem;
+
+  /* FONT-SIZE */
+
+  --h1: 3.359rem;
+  --h2: 2.799rem;
+  --h3: 2.333rem;
+  --h4: 1.944rem;
+  --h5: 1.62rem;
+  --h6: 1.35rem;
+
+  --body: 1.125rem;
+  --body-sm: .938rem;
+  --body-xs: .781rem;
+
+  /* LINE-HEIGHT */
+
+  --lh-h1: calc(var(--h1) * 1.1);
+  --lh-h2: calc(var(--h2) * 1.2);
+  --lh-h3: calc(var(--h3) * 1.2);
+  --lh-h4: calc(var(--h4) * 1.3);
+  --lh-h5: calc(var(--h5) * 1.3);
+  --lh-h6: calc(var(--h6) * 1.4);
+
+  --lh-body: calc(var(--body) * 1.5);
+  --lh-body-sm: calc(var(--body-sm) * 1.5);
+  --lh-body-xs: calc(var(--body-xs) * 1.5);
+}

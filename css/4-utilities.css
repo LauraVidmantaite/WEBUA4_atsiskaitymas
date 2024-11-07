@@ -1,0 +1,96 @@
+header, main, footer {
+  width: 100%;
+}
+
+/* wrappers */
+
+.wrapper-img {
+  position: relative;
+  background: url("../assets/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-black);
+  opacity: 0.3;
+}
+
+.wrapper-color {
+  background-color: var(--color-secondary);
+}
+
+/* --- */
+
+/* COMPONENTS */
+
+/* buttons */
+
+.btn {
+  border: none;
+  border-radius: .25rem;
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  cursor: pointer;
+  transition: all 150ms ease-out;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.btn-md {
+  padding: var(--spc-2) var(--spc-10);
+  font-size: var(--body);
+  line-height: var(--lh-body);
+}
+
+.btn-sm {
+  padding: var(--spc-2) var(--spc-3);
+  font-size: var(--body-sm);
+  line-height: var(--lh-body-sm);
+}
+
+/* input fields */
+  
+input {
+  padding: var(--spc-2) var(--spc-3);
+  border: 2px solid transparent;
+  border-radius: .25rem;
+  font-size: var(--body);
+  line-height: var(--lh-body);
+  transition: all 150ms ease;
+}
+  
+input:hover {
+  border: 2px solid var(--color-gray);
+  color: var(--color-black);
+}
+  
+input:focus {
+  border: 2px solid var(--color-primary);
+  outline: none;
+  color: var(--color-black);
+}
+  
+input::placeholder {
+  color: var(--color-gray);
+}
+
+/* layout */
+
+.container {
+  margin: 0 auto;
+  max-width: 64rem;
+}
+
+.container-wide {
+  margin: 0 auto;
+  max-width: 80rem;
+}
